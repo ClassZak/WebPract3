@@ -1,0 +1,45 @@
+body{
+	width: 70%;
+	margin: 0 auto;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	font-family: Consolas, sans-serif;
+	margin-top: 1.5em;
+	margin-bottom: 1em;
+}
+
+h1{
+	font-size: 32px;
+}
+
+table{
+	border-collapse: collapse
+}
+table, td, th{
+	border: 1px solid black;
+}
+th, td {
+	padding: 2px;
+}
+
+figcaption{
+	font-style: italic;
+	margin-top: 5px;	
+	text-align: center;
+	width: 100%;
+	max-width: 280px;
+	overflow-wrap: break-word;
+	white-space: normal;
+	overflow-wrap: break-word;
+	word-wrap: break-word;
+}
+
+figure {
+	float: right;
+}
+img {
+	max-width: 280px;
+	display: block;
+	margin: 0 auto;
+}
